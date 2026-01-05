@@ -241,7 +241,7 @@ const Home = () => {
             <div className="opacity-0 animate-slide-in-left">
               <span className="text-accent font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-6">
-                Why Choose <span className="text-accent">SwiftLogistics?</span>
+                Why Choose <span className="text-accent">DumpLink ?</span>
               </h2>
               <p className="text-muted-foreground text-lg mb-8">
                 With over 20 years of experience in the logistics industry, we've built a reputation for reliability, efficiency, and customer satisfaction.

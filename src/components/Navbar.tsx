@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import logo from './logos.jpeg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,17 +18,18 @@ const Navbar = () => {
   const isActive = (path: string) => location.pathname === path;
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md border-b border-border">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-card/95 bg-[#fdfffc] border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="p-2 rounded-lg bg-primary text-primary-foreground group-hover:scale-105 transition-transform">
+          <img src={logo} alt="SwiftLogistics Logo" className="h-[80px] md:w-[400px] mr-8"/>
+            {/* <div className="p-2 rounded-lg bg-primary text-primary-foreground group-hover:scale-105 transition-transform">
               <Truck className="h-6 w-6" />
             </div>
             <span className="text-2xl font-bold text-foreground">
               Swift<span className="text-accent">Logistics</span>
-            </span>
+            </span> */}
           </Link>
 
           {/* Desktop Navigation */}

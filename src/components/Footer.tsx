@@ -2,6 +2,15 @@ import { Link } from "react-router-dom";
 import { Truck, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
 
 const Footer = () => {
+  const handles=[{
+    name:"Facebook", icon:Facebook, url:"#"
+  },{
+    name:"Twitter", icon:Twitter, url:"https://x.com/DumplinkInfo"
+  },{
+    name:"Linkedin", icon:Linkedin, url:"https://www.linkedin.com/in/dumplink-logistics-1320383a5/"
+  },{
+    name:"Instagram", icon:Instagram, url:"https://www.instagram.com/dumplink_logistics/"
+  }]
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-16">
@@ -13,20 +22,20 @@ const Footer = () => {
                 <Truck className="h-6 w-6" />
               </div>
               <span className="text-2xl font-bold">
-                Swift<span className="text-accent">Logistics</span>
+                Dumplink <span className="text-accent">Logistics</span>
               </span>
             </Link>
             <p className="text-primary-foreground/80 leading-relaxed">
               Your trusted partner in global logistics solutions. We deliver excellence across land, sea, and air.
             </p>
             <div className="flex gap-4">
-              {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
+              {handles.map((handle, i) => (
                 <a
                   key={i}
-                  href="#"
+                  href={handle.url}
                   className="p-2 rounded-lg bg-primary-foreground/10 hover:bg-accent hover:text-accent-foreground transition-all duration-300"
                 >
-                  <Icon className="h-5 w-5" />
+                  <handle.icon className="h-5 w-5" />
                 </a>
               ))}
             </div>
@@ -85,8 +94,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent flex-shrink-0" />
-                <a href="mailto:info@swiftlogistics.com" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  info@swiftlogistics.com
+                <a href="mailto:info@dumplinklogisticsltd.com" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  info@dumplinklogisticsltd.com
                 </a>
               </li>
             </ul>
@@ -96,7 +105,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/60 text-sm">
-            © 2026 SwiftLogistics. All rights reserved.
+            © 2026 Dumplink Logistics. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors">
