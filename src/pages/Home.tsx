@@ -16,27 +16,27 @@ const stats = [
 
 const services = [
   {
-    icon: Plane,
-    title: "Air Freight",
-    description: "Fast and reliable air cargo services worldwide with real-time tracking.",
-    image: airFreightImage,
-  },
-  {
-    icon: Ship,
-    title: "Sea Freight",
-    description: "Cost-effective ocean shipping for large volume cargo.",
-    image: seaFreightImage,
+    icon: Truck,
+    title: "Dump Truck Haulage Services",
+    description: "Transportation and tipping of construction and bulk materials such as sand, laterite, granite, gravel, and related materials from approved sources to designated project sites.",
+    image: roadTransportImage,
   },
   {
     icon: Truck,
-    title: "Road Transport",
-    description: "Efficient ground transportation across continents.",
+    title: "Logistics Platform & Digital Solutions",
+    description: "Development and operation of digital platforms and mobile applications that connect customers, drivers, transporters, vendors, and agents for seamless logistics coordination and service delivery.",
+    image: roadTransportImage,
+  },
+  {
+    icon: Truck,
+    title: "Agency & Intermediary Services",
+    description: "Acting as agents, contractors, subcontractors, or commission-based intermediaries in logistics and transportation transactions.",
     image: roadTransportImage,
   },
   {
     icon: Package,
-    title: "Warehousing",
-    description: "Secure storage solutions with inventory management.",
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
     image: warehouseImage,
   },
 ];
