@@ -66,11 +66,11 @@ const Contact = () => {
       )
       .then(
         () => {
-          toast.success("Feedback Sent to Dumplinks logistics")
+          toast.success("Qoutes Sent to Dumplinks logistics")
       
         },
         (error) => {
-          toast.error("Feedback Not Sent to GREENFUSION")
+          toast.error("Qoutes Not Sent to Dumplink logistics")
           console.log('FAILED...', error);
         },
       );
