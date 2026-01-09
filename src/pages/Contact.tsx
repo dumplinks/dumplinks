@@ -14,7 +14,7 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Call Us",
-    details: ["+1 (234) 567-890", "+1 (234) 567-891"],
+    details: ["+49 (179) 513-4962", "+2348103117158"],
     color: "bg-primary",
   },
   {
