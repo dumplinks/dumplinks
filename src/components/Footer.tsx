@@ -62,7 +62,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-6">Our Services</h3>
             <ul className="space-y-3">
-              {["Air Freight", "Sea Freight", "Road Transport", "Warehousing", "Custom Clearance"].map((item) => (
+              {["Dump Truck Haulage Services", "Logistics Platform & Digital Solutions", "Agency & Intermediary Services", "Logistics Advisory & Management Services", "Partnerships & Joint Ventures"].map((item) => (
                 <li key={item}>
                   <Link
                     to="/services"
