@@ -2,83 +2,78 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Plane, Ship, Truck, Package, FileCheck, MapPin, Clock, Shield, Zap, CheckCircle, ArrowRight } from "lucide-react";
 import airFreightImage from "@/assets/air-freight.jpg";
-import seaFreightImage from "@/assets/sea-freight.jpg";
+import partnership from "@/assets/partner.jpg";
 import roadTransportImage from "@/assets/road-transport.jpg";
 import warehouseImage from "@/assets/warehouse.jpg";
 
 const services = [
   {
-    icon: Plane,
-    title: "Air Freight",
-    description: "Fast and reliable air cargo services for time-sensitive shipments worldwide.",
-    image: airFreightImage,
+    icon: Truck,
+    title: "Dump Truck Haulage Services",
+    description: "Transportation and tipping of construction and bulk materials such as sand, laterite, granite, gravel, and related materials from approved sources to designated project sites.",
+    image: roadTransportImage,
     features: [
-      "Express delivery options",
-      "Real-time tracking",
-      "Temperature-controlled cargo",
-      "Customs clearance support",
-    ],
-  },
-  {
-    icon: Ship,
-    title: "Sea Freight",
-    description: "Cost-effective ocean shipping solutions for large volume cargo.",
-    image: seaFreightImage,
-    features: [
-      "FCL & LCL options",
-      "Port-to-port service",
-      "Container tracking",
-      "Multi-modal solutions",
+      "Transportation of construction and bulk materials using dump trucks",
+      "Haulage of sand, laterite, granite, gravel, and related aggregates",
+      "Sourcing and transport of materials from approved quarries and suppliers",
+      "Tipping and offloading of materials at specified locations",
     ],
   },
   {
     icon: Truck,
-    title: "Road Transport",
-    description: "Efficient ground transportation network across continents.",
+    title: "Logistics Platform & Digital Solutions",
+    description: "Development and operation of digital platforms and mobile applications that connect customers, drivers, transporters, vendors, and agents for seamless logistics coordination and service delivery.",
     image: roadTransportImage,
     features: [
-      "Full truckload (FTL)",
-      "Less than truckload (LTL)",
-      "Cross-border shipping",
-      "Last-mile delivery",
+      "Mobile application solutions for real-time coordination and tracking",
+      "Customer-facing platforms for booking, monitoring, and service management",
+      "Real-time communication and data exchange between all logistics stakeholders",
+      "Driver and transporter apps for job allocation, navigation, and status updates",
+      "Scalable, secure, and user-friendly digital infrastructure for service delivery",
+
     ],
   },
   {
+    icon: Truck,
+    title: "Agency & Intermediary Services",
+    description: "Acting as agents, contractors, subcontractors, or commission-based intermediaries in logistics and transportation transactions.",
+    image: roadTransportImage,
+    features: [
+      "Acting as logistics and transportation agents on behalf of clients",
+      "Facilitating transportation arrangements between customers and service providers",
+      "Operating as commission-based intermediaries in logistics transactions",
+      "Coordinating shipments, freight bookings, and delivery services",
+      "Managing negotiations, documentation, and service agreements",
+      "Representing vendors, transporters, and service partners",
+      "Ensuring smooth execution of logistics contracts and transactions",
+    ],
+  },
+
+  {
     icon: Package,
-    title: "Warehousing",
-    description: "Secure storage and distribution solutions for your inventory.",
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
     image: warehouseImage,
     features: [
-      "Climate-controlled storage",
-      "Inventory management",
-      "Pick and pack services",
-      "Distribution services",
+      "Providing strategic advisory services in logistics and transportation",
+      "Offering operational planning and optimization solutions",
+      "Managing end-to-end logistics and mobility-related operations",
+      "Conducting logistics assessments and performance evaluations",
     ],
   },
   {
     icon: FileCheck,
-    title: "Customs Clearance",
-    description: "Expert customs brokerage services for smooth international trade.",
-    image: airFreightImage,
+    title: "Partnerships & Joint Ventures",
+    description: "Strategic collaborations with individuals, companies, and institutions to expand logistics capacity, market reach, and service offerings.",
+    image: partnership,
     features: [
-      "Import/export documentation",
-      "Tariff classification",
-      "Duty optimization",
-      "Compliance support",
+      "Strategic alliances with logistics providers to expand transportation capacity and geographic coverage",
+      "Joint ventures with warehousing and fulfillment companies to enhance storage and distribution capabilities",
+      "Partnerships with manufacturers and distributors to streamline end-to-end logistics solutions",
+      "Collaborations with technology firms to integrate advanced tracking, automation, and supply chain management systems",
     ],
   },
-  {
-    icon: MapPin,
-    title: "Supply Chain Management",
-    description: "End-to-end visibility and optimization of your supply chain.",
-    image: seaFreightImage,
-    features: [
-      "Demand forecasting",
-      "Inventory optimization",
-      "Vendor management",
-      "Analytics & reporting",
-    ],
-  },
+
 ];
 
 const processSteps = [
@@ -190,7 +185,7 @@ const Services = () => {
                   <img 
                     src={service.image} 
                     alt={service.title}
-                    className="w-full h-[300px] object-cover transition-transform duration-700 group-hover:scale-110"
+                    className="w-full h-[350px] object-cover transition-transform duration-700 group-hover:scale-110"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   
@@ -341,7 +336,7 @@ const Services = () => {
         <div className="container mx-auto px-4 text-center relative z-10">
           <Truck className="h-16 w-16 text-accent mx-auto mb-6 animate-bounce-gentle" />
           <h2 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4 opacity-0 animate-fade-in">
-            Ready to Ship?
+            Ready to Dispatch ?
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
             Let our experts help you find the perfect logistics solution for your business.

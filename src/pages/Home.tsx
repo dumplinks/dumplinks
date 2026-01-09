@@ -336,10 +336,10 @@ const Home = () => {
           <div className="max-w-3xl mx-auto">
             <Truck className="h-16 w-16 text-accent mx-auto mb-6 animate-bounce-gentle" />
             <h2 className="text-3xl md:text-5xl font-bold text-primary-foreground mb-4 opacity-0 animate-fade-in">
-              Ready to Ship with Confidence?
+              Ready to  Dispatch with Confidence?
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-              Join thousands of businesses that trust SwiftLogistics for their shipping needs.
+              Join thousands of businesses that trust Dumplink Logistics for their dispatching needs.
             </p>
             <div className="flex flex-wrap justify-center gap-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <Button variant="hero" size="xl" className="group pulse-glow" asChild>

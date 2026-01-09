@@ -37,7 +37,7 @@ const milestones = [
 
 const testimonials = [
   {
-    quote: "SwiftLogistics transformed our supply chain. Their reliability and professionalism are unmatched.",
+    quote: "Dumplink Logistics transformed our supply chain. Their reliability and professionalism are unmatched.",
     author: "Sarah Johnson",
     company: "TechCorp Inc.",
   },
@@ -65,12 +65,12 @@ const About = () => {
               About Us
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-              About <span className="text-accent">SwiftLogistics</span>
+              About <span className="text-accent">Dumplink Logistics</span>
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/80 opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              For over 20 years, we've been connecting businesses to the world through reliable, innovative logistics solutions.
-            </p>
-          </div>
+
+              </p>
+            </div>
         </div>
       </section>
 
@@ -85,7 +85,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p className="opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-                  SwiftLogistics was founded in 2004 with a simple mission: to make global shipping accessible, affordable, and reliable for businesses of all sizes.
+                  Dumplink Logistics was founded in 2025 with a simple mission: to make global shipping accessible, affordable, and reliable for businesses of all sizes.
                 </p>
                 <p className="opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
                   What started as a small regional transport company has grown into a global logistics powerhouse, serving over 10,000 businesses across 50+ countries.
