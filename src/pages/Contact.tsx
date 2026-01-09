@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Mail, Phone, MapPin, Clock, Send, CheckCircle, MessageSquare } from "lucide-react";
-import { toast } from "sonner";
+// import { toast } from "sonner";
 import heroImage from "@/assets/hero-logistics.jpg";
+import emailjs from '@emailjs/browser'
+import { ToastContainer, toast } from 'react-toastify';
+
 
 const contactInfo = [
   {
@@ -40,6 +43,40 @@ const Contact = () => {
     service: "",
     message: "",
   });
+
+
+
+  const templateParams={
+    from_name:formData.name,
+    from_email:formData.email,
+    to_name:"Dumplink Logistics",
+    subject:"Qoutes",
+    message:formData.message,
+
+  }
+  const form = useRef();
+  const sendEmail = (e) => {
+    const public_key="LP_gdQVqVkKCNgmIL"
+    e.preventDefault();
+
+    emailjs
+      .send('service_zyc03ik', 'template_fva1ypj', 
+        templateParams,
+        public_key
+      )
+      .then(
+        () => {
+          toast.success("Feedback Sent to Dumplinks logistics")
+      
+        },
+        (error) => {
+          toast.error("Feedback Not Sent to GREENFUSION")
+          console.log('FAILED...', error);
+        },
+      );
+  };
+
+  
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [focusedField, setFocusedField] = useState<string | null>(null);
 
@@ -70,6 +107,7 @@ const Contact = () => {
 
   return (
     <div className="overflow-hidden">
+      <ToastContainer/>
       {/* Hero Section */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0">
@@ -138,7 +176,7 @@ const Contact = () => {
                 Fill out the form below and our team will get back to you within 24 hours.
               </p>
 
-              <form onSubmit={handleSubmit} className="space-y-6">
+              <form onSubmit={sendEmail} className="space-y-6">
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="relative">
                     <label 
