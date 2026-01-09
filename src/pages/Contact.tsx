@@ -8,7 +8,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: ["123 Logistics Way, Suite 400", "New York, NY 10001"],
+    details: ["10 Aighimien street, OFF Ekhator Street Off Ogiemwenken, Benin City,Edo State."],
     color: "bg-accent",
   },
   {
@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: ["info@swiftlogistics.com", "support@swiftlogistics.com"],
+    details: ["info@dumplinklogisticsltd.com"],
     color: "bg-accent",
   },
   {
@@ -244,12 +244,12 @@ const Contact = () => {
                     className="w-full px-4 py-3 rounded-xl border-2 border-border bg-card focus:outline-none focus:border-accent transition-all duration-300 text-foreground"
                   >
                     <option value="">Select a service</option>
-                    <option value="air-freight">Air Freight</option>
-                    <option value="sea-freight">Sea Freight</option>
-                    <option value="road-transport">Road Transport</option>
-                    <option value="warehousing">Warehousing</option>
-                    <option value="customs">Customs Clearance</option>
-                    <option value="supply-chain">Supply Chain Management</option>
+                    <option value="Dump Truck">Dump Truck Haulage Services</option>
+                    <option value="Logistics Platform & Digital Solutions">Logistics Platform & Digital Solutions</option>
+                    <option value="Agency & Intermediary Services">Agency & Intermediary Services</option>
+                    <option value="Logistics Advisory & Management Services">Logistics Advisory & Management Services</option>
+                    <option value="Partnerships & Joint Ventures">Partnerships & Joint Ventures</option>
+                   
                   </select>
                 </div>
 
@@ -309,8 +309,8 @@ const Contact = () => {
                     Our Headquarters
                   </h3>
                   <p className="text-muted-foreground">
-                    123 Logistics Way, Suite 400<br />
-                    New York, NY 10001
+                     10 Aighimien street, OFF Ekhator Street<br />
+                  Off Ogiemwenken, Benin City,Edo State.
                   </p>
                 </div>
               </div>

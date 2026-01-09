@@ -7,8 +7,8 @@ import warehouseImage from "@/assets/warehouse.jpg";
 const values = [
   {
     icon: Target,
-    title: "Reliability",
-    description: "We deliver on our promises, every single time.",
+    title: "Professionalism",
+    description: "Professionalism means delivering reliable, efficient, and ethical logistics services at all times.",
   },
   {
     icon: Heart,
@@ -22,7 +22,7 @@ const values = [
   },
   {
     icon: Users,
-    title: "Teamwork",
+    title: "Operational Excellence",
     description: "Collaborative approach to solve complex logistics challenges.",
   },
 ];
@@ -136,7 +136,7 @@ const About = () => {
       </section>
 
       {/* Team Image Section */}
-      <section className="py-16 bg-secondary">
+      {/* <section className="py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <div className="relative rounded-3xl overflow-hidden shadow-custom-lg">
             <img 
@@ -156,7 +156,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Mission & Vision */}
       <section className="py-24 bg-background">
@@ -168,8 +168,12 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Mission</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To provide world-class logistics solutions that empower businesses to grow, connecting them to markets worldwide with speed, reliability, and care.
-              </p>
+               DumpLink Logistics Limited Our mission at DumpLink Logistics Limited is to deliver reliable, efficient, and technology-driven logistics and haulage solutions across Nigeria’s construction and infrastructure sectors. We are committed to safely transporting bulk construction materials — including sand, laterite, granite, gravel, and other aggregates — from approved sourcing locations to project sites with professionalism and integrity. We leverage innovative digital platforms and mobile applications to connect customers, drivers, transporters, vendors, agents, 
+               and service providers, improving efficiency, transparency, and service delivery. Through advisory and consulting services,
+                we support logistics excellence, business growth, and economic development while building strong partnerships that advance Nigeria’s 
+                logistics ecosystem.
+            
+               </p>
             </div>
 
             <div className="bg-card rounded-2xl p-8 shadow-custom-md hover-lift group opacity-0 animate-fade-in" style={{ animationDelay: "0.15s" }}>
@@ -178,9 +182,52 @@ const About = () => {
               </div>
               <h3 className="text-2xl font-bold text-foreground mb-4">Our Vision</h3>
               <p className="text-muted-foreground leading-relaxed">
-                To be the most trusted and innovative logistics partner globally, setting new standards for efficiency, sustainability, and customer experience.
+               DumpLink Logistics Limited To become Nigeria’s leading technology-enabled haulage and logistics company, transforming the movement of construction materials through innovation, reliability,
+                and operational excellence while setting new standards for efficiency, transparency, and customer satisfaction in the logistics industry.
               </p>
             </div>
+
+            
+          </div>
+        </div>
+      </section>
+
+           {/* About Us */}
+      <section className="py-24 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-card rounded-2xl p-8 shadow-custom-md hover-lift group opacity-0 animate-fade-in">
+              <div className="p-4 rounded-xl bg-accent/10 text-accent w-fit mb-6 group-hover:bg-accent group-hover:text-accent-foreground transition-all duration-300 group-hover:rotate-12">
+                <Target className="h-8 w-8" />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground mb-4">About Us</h3>
+              <p className="text-muted-foreground leading-relaxed">
+
+               DumpLink Logistics Ltd. is a logistics and haulage company engaged in the provision of professional dump truck transportation services for the construction, infrastructure, and real estate sectors. The Company specializes in the haulage, delivery, and tipping of bulk construction materials including sand, laterite, granite, gravel, and other related aggregates from approved sourcing locations to construction sites, industrial facilities, and project locations.
+
+               In addition to physical logistics operations, DumpLink Logistics Ltd. will operates technology-enabled platforms, including digital systems and mobile applications, designed to efficiently connect customers with drivers, transporters, vendors, agents, and other logistics service providers. Through these platforms, the Company will enhances transparency, coordination, and operational efficiency within the haulage and logistics value chain.
+               </p>
+            </div>
+
+            <div className="bg-card rounded-2xl p-8 shadow-custom-md hover-lift group opacity-0 animate-fade-in" style={{ animationDelay: "0.15s" }}>
+              <div className="p-4 rounded-xl bg-accent/10 text-accent w-fit mb-6 group-hover:bg-accent group-hover:text-accent-foreground transition-all duration-300 group-hover:rotate-12">
+                <Eye className="h-8 w-8" />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground mb-4">Read More</h3>
+              <p className="text-muted-foreground leading-relaxed">
+              DumpLink Logistics Ltd. also functions as an intermediary and service enabler within the logistics ecosystem. The Company may act as an agent, contractor, subcontractor, or commission-based service provider, facilitating logistics, transportation, and delivery services between parties while ensuring service quality, reliability, and compliance with applicable standards.
+
+Furthermore, the Company provides advisory, operational support, and management services related to logistics, transportation, and mobility solutions. These services are tailored to support individuals, businesses, and institutions seeking efficient, scalable, and cost-effective logistics operations.
+
+To advance its business objectives, DumpLink Logistics Ltd. is empowered to enter into strategic partnerships, joint ventures, and collaborative arrangements with individuals, corporate entities, governmental bodies, and institutions, both locally and internationally, where such collaborations support the attainment of the Company’s objectives.
+
+DumpLink Logistics Ltd. is committed to delivering dependable logistics solutions driven by professionalism, innovation, and operational excellence.
+
+
+</p>
+            </div>
+
+            
           </div>
         </div>
       </section>
@@ -331,7 +378,7 @@ const About = () => {
             Join Our Growing Family
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Partner with SwiftLogistics and experience the difference of working with industry leaders.
+            Partner with Dumplink logistics and experience the difference of working with industry leaders.
           </p>
           <Button variant="hero" size="xl" className="group pulse-glow opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }} asChild>
             <Link to="/contact">

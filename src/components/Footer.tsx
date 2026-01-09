@@ -82,14 +82,14 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-primary-foreground/80">
-                  123 Logistics Way, Suite 400<br />
-                  New York, NY 10001
+                  10 Aighimien street, OFF Ekhator Street<br />
+                  Off Ogiemwenken, Benin City,Edo State.
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
-                <a href="tel:+1234567890" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+491795134962" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  +49 (179) 513-4962
                 </a>
               </li>
               <li className="flex items-center gap-3">
