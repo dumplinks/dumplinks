@@ -1,6 +1,7 @@
 import { ReactNode } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import { FaWhatsapp } from "react-icons/fa";
 
 interface LayoutProps {
   children: ReactNode;
@@ -12,6 +13,39 @@ const Layout = ({ children }: LayoutProps) => {
       <Navbar />
       <main className="flex-1 pt-20">{children}</main>
       <Footer />
+          <div style={{
+        position:"fixed",
+        bottom:"70px",
+        background:" #37CA2A",
+        width:"55px",
+        height:"55px",
+        borderRadius:"50%",
+        right:"20px",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
+        zIndex:1000
+       
+
+      }}>
+
+         <div
+        style={{
+          width:"45px",
+        height:"45px",
+        borderRadius:"50%",
+        borderWidth:"2px",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center"
+        }}
+        >
+        <a href="https://wa.me/+2349011192901">     
+        <FaWhatsapp color='white' size={25} />
+      </a>
+        </div>
+      </div>
+
     </div>
   );
 };
