@@ -286,12 +286,19 @@ const Home = () => {
                     placeholder="Email Address"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all duration-300"
                   />
+                  <input
+                    type="contact"
+                    placeholder="Phone Number..."
+                    className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all duration-300"
+                  />
                   <select className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-accent/50 focus:border-accent transition-all duration-300 text-muted-foreground">
-                    <option value="">Select Service</option>
-                    <option value="air">Air Freight</option>
-                    <option value="sea">Sea Freight</option>
-                    <option value="road">Road Transport</option>
-                    <option value="warehouse">Warehousing</option>
+                  <option value="">Select a service</option>
+                    <option value="Dump Truck">Dump Truck Haulage Services</option>
+                    <option value="Logistics Platform & Digital Solutions">Logistics Platform & Digital Solutions</option>
+                    <option value="Agency & Intermediary Services">Agency & Intermediary Services</option>
+                    <option value="Logistics Advisory & Management Services">Logistics Advisory & Management Services</option>
+                    <option value="Partnerships & Joint Ventures">Partnerships & Joint Ventures</option>
+                   
                   </select>
                   <textarea
                     placeholder="Message"
