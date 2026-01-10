@@ -2,6 +2,8 @@ import { ReactNode } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { FaWhatsapp } from "react-icons/fa";
+import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 
 interface LayoutProps {
   children: ReactNode;
@@ -44,6 +46,29 @@ const Layout = ({ children }: LayoutProps) => {
         <FaWhatsapp color='white' size={25} />
       </a>
         </div>
+      </div>
+
+
+       <div style={{
+        position:"fixed",
+        bottom:"150px",
+      
+        width:"55px",
+        height:"55px",
+        borderRadius:"50%",
+        right:"20px",
+        display:"flex",
+        alignItems:"center",
+        justifyContent:"center",
+        zIndex:1000
+       
+
+      }}>
+        <div className="md:block">
+                    <Button variant="accent" asChild>
+                      <Link to="/how">How it works </Link>
+                    </Button>
+                  </div>
       </div>
 
     </div>

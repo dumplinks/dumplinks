@@ -8,8 +8,8 @@ import seaFreightImage from "@/assets/sea-freight.jpg";
 import roadTransportImage from "@/assets/road-transport.jpg";
 
 const stats = [
-  { value: "15K+", label: "Deliveries Daily" },
-  { value: "50+", label: "Countries Served" },
+  { value: "2K+", label: "Deliveries Daily" },
+  { value: "10+", label: "States Served" },
   { value: "99.8%", label: "On-Time Rate" },
   { value: "24/7", label: "Support" },
 ];
@@ -50,12 +50,12 @@ const features = [
   {
     icon: Shield,
     title: "Secure Handling",
-    description: "Your cargo is protected with our advanced security measures.",
+    description: "Your goods are protected with our advanced security measures.",
   },
   {
     icon: Globe,
     title: "Global Network",
-    description: "Connected across 50+ countries for seamless logistics.",
+    description: "Connected across 36 states of nigeria for seamless logistics.",
   },
 ];
 
@@ -86,13 +86,13 @@ const Home = () => {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/20 text-accent mb-6 opacity-0 animate-fade-in backdrop-blur-sm border border-accent/30">
               <Truck className="h-4 w-4 animate-bounce-gentle" />
-              <span className="text-sm font-medium">Trusted by 10,000+ businesses</span>
+              <span className="text-sm font-medium">Trusted by 1,000+ businesses</span>
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground leading-tight mb-6 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
               Delivering Excellence<br />
               <span className="text-accent relative">
-                Across the Globe
+                Across all Nigerian States
                 <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 300 12" fill="none">
                   <path d="M2 10C50 4 100 4 150 6C200 8 250 4 298 10" stroke="currentColor" strokeWidth="3" strokeLinecap="round" className="animate-pulse-soft"/>
                 </svg>
@@ -100,7 +100,7 @@ const Home = () => {
             </h1>
             
             <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-2xl opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              Swift, secure, and reliable logistics solutions for your business. From air freight to last-mile delivery, we've got you covered.
+              Swift, secure, and reliable logistics solutions for your business. From last-mile to full-scale haulage freight delivery, we've got you covered.
             </p>
             
             <div className="flex flex-wrap gap-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.3s" }}>
@@ -133,7 +133,7 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-center gap-8 md:gap-16 flex-wrap">
             <span className="text-primary-foreground/60 text-sm font-medium">Trusted by:</span>
-            {clients.map((client, index) => (
+            {/* {clients.map((client, index) => (
               <span 
                 key={client} 
                 className="text-primary-foreground/80 font-bold text-lg opacity-0 animate-fade-in hover:text-accent transition-colors cursor-default"
@@ -141,7 +141,15 @@ const Home = () => {
               >
                 {client}
               </span>
-            ))}
+            ))} */}
+
+            <span 
+               
+                className="text-primary-foreground/80 font-bold text-lg opacity-0 animate-fade-in hover:text-accent transition-colors cursor-default"
+                // style={{ animationDelay: `${0.1 * index}s` }}
+              >
+               Multiple National and International Companies.
+              </span>
           </div>
         </div>
       </section>
@@ -244,7 +252,7 @@ const Home = () => {
                 Why Choose <span className="text-accent">DumpLink ?</span>
               </h2>
               <p className="text-muted-foreground text-lg mb-8">
-                With over 20 years of experience in the logistics industry, we've built a reputation for reliability, efficiency, and customer satisfaction.
+                With over a year of experience in the logistics industry, we've built a reputation for reliability, efficiency, and customer satisfaction.
               </p>
               
               <div className="space-y-6">
@@ -343,10 +351,10 @@ const Home = () => {
           <div className="max-w-3xl mx-auto">
             <Truck className="h-16 w-16 text-accent mx-auto mb-6 animate-bounce-gentle" />
             <h2 className="text-3xl md:text-5xl font-bold text-primary-foreground mb-4 opacity-0 animate-fade-in">
-              Ready to  Dispatch with Confidence?
+              Ready to  Transport with Confidence?
             </h2>
             <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-              Join thousands of businesses that trust Dumplink Logistics for their dispatching needs.
+              Join thousands of businesses that trust DumpLink Logistics for their Transportation needs.
             </p>
             <div className="flex flex-wrap justify-center gap-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <Button variant="hero" size="xl" className="group pulse-glow" asChild>

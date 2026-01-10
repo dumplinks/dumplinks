@@ -28,23 +28,23 @@ const values = [
 ];
 
 const milestones = [
-  { year: "2004", title: "Company Founded", description: "Started with a single truck and a vision." },
-  { year: "2010", title: "International Expansion", description: "Expanded operations to 15 countries." },
-  { year: "2016", title: "Technology Revolution", description: "Launched real-time tracking platform." },
-  { year: "2020", title: "Global Network", description: "Reached 50+ countries worldwide." },
-  { year: "2024", title: "Industry Leader", description: "Recognized as top logistics provider." },
+  { year: "2020", title: "Regional Operations", description: "Started with a single truck and a vision." },
+  // { year: "2010", title: "International Expansion", description: "Expanded operations to 15 countries." },
+  { year: "2026", title: "Digitalization", description: "Launched real-time tracking platform with more trucks" },
+  // { year: "2020", title: "Global Network", description: "Reached 50+ countries worldwide." },
+  // { year: "2024", title: "Industry Leader", description: "Recognized as top logistics provider." },
 ];
 
 const testimonials = [
   {
-    quote: "Dumplink Logistics transformed our supply chain. Their reliability and professionalism are unmatched.",
-    author: "Sarah Johnson",
-    company: "TechCorp Inc.",
+    quote: "DumpLink Logistics transformed our supply chain. Their reliability and professionalism are unmatched.",
+    author: "Emmanuel Taiwo",
+    company: " ",
   },
   {
     quote: "The best logistics partner we've ever worked with. On-time delivery, every time.",
-    author: "Michael Chen",
-    company: "GlobalTrade Co.",
+    author: "Osaigbovo Ernest",
+    company: "",
   },
 ];
 
@@ -65,7 +65,7 @@ const About = () => {
               About Us
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-              About <span className="text-accent">Dumplink Logistics</span>
+              About <span className="text-accent">DumpLink Logistics</span>
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/80 opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
 
@@ -85,13 +85,13 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p className="opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-                  Dumplink Logistics was founded in 2025 with a simple mission: to make global shipping accessible, affordable, and reliable for businesses of all sizes.
+                  DumpLink Logistics was founded in 2026 with a simple mission: to make national logistics and haulage services  accessible, affordable, and reliable for businesses of all sizes.
                 </p>
                 <p className="opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-                  What started as a small regional transport company has grown into a global logistics powerhouse, serving over 10,000 businesses across 50+ countries.
+                  What started as a small regional transport company has grown into a national logistics powerhouse, serving over 42 businesses across 36 states of Nigeria.
                 </p>
                 <p className="opacity-0 animate-fade-in" style={{ animationDelay: "0.3s" }}>
-                  Our success is built on a foundation of trust, innovation, and an unwavering commitment to customer satisfaction. We don't just move packages—we build lasting partnerships.
+                  Our success is built on a foundation of trust, innovation, and an unwavering commitment to customer satisfaction. We don't just move goods—we build lasting partnerships.
                 </p>
               </div>
               <div className="flex gap-4 mt-8 opacity-0 animate-fade-in" style={{ animationDelay: "0.4s" }}>
@@ -111,21 +111,21 @@ const About = () => {
               <div className="grid grid-cols-2 gap-4">
                 <div className="space-y-4">
                   <div className="bg-card rounded-xl p-6 shadow-custom-md hover-lift">
-                    <div className="text-4xl font-bold text-accent mb-2">20+</div>
-                    <div className="text-muted-foreground">Years Experience</div>
+                    <div className="text-4xl font-bold text-accent mb-2">1+</div>
+                    <div className="text-muted-foreground">Year Experience</div>
                   </div>
                   <div className="bg-accent rounded-xl p-6 text-accent-foreground hover-lift shadow-accent">
-                    <div className="text-4xl font-bold mb-2">15K+</div>
+                    <div className="text-4xl font-bold mb-2">2K+</div>
                     <div className="opacity-80">Daily Deliveries</div>
                   </div>
                 </div>
                 <div className="space-y-4 pt-8">
                   <div className="bg-primary rounded-xl p-6 text-primary-foreground hover-lift">
-                    <div className="text-4xl font-bold mb-2">50+</div>
-                    <div className="opacity-80">Countries</div>
+                    <div className="text-4xl font-bold mb-2">10+</div>
+                    <div className="opacity-80">States</div>
                   </div>
                   <div className="bg-card rounded-xl p-6 shadow-custom-md hover-lift">
-                    <div className="text-4xl font-bold text-accent mb-2">10K+</div>
+                    <div className="text-4xl font-bold text-accent mb-2">1k+</div>
                     <div className="text-muted-foreground">Happy Clients</div>
                   </div>
                 </div>
@@ -356,12 +356,12 @@ DumpLink Logistics Ltd. is committed to delivering dependable logistics solution
         <div className="absolute inset-0 gradient-hero opacity-80" />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center">
-            <h3 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
+            {/* <h3 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-4">
               State-of-the-Art Facilities
             </h3>
             <p className="text-primary-foreground/80 max-w-xl mx-auto px-4">
               Over 2 million sq ft of warehouse space across 30+ locations worldwide
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -378,7 +378,7 @@ DumpLink Logistics Ltd. is committed to delivering dependable logistics solution
             Join Our Growing Family
           </h2>
           <p className="text-primary-foreground/80 text-lg mb-8 max-w-2xl mx-auto opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            Partner with Dumplink logistics and experience the difference of working with industry leaders.
+            Partner with DumpLink logistics and experience the difference of working with industry leaders.
           </p>
           <Button variant="hero" size="xl" className="group pulse-glow opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }} asChild>
             <Link to="/contact">

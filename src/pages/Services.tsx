@@ -92,7 +92,7 @@ const processSteps = [
   {
     step: "03",
     title: "Track Shipment",
-    description: "Monitor your cargo in real-time with our tracking system.",
+    description: "Monitor your goods in real-time with our tracking system.",
     icon: MapPin,
   },
   {
@@ -105,8 +105,8 @@ const processSteps = [
 
 const benefits = [
   { icon: Clock, title: "Fast Delivery", description: "Express options available" },
-  { icon: Shield, title: "Secure Handling", description: "Insurance coverage included" },
-  { icon: Zap, title: "Real-Time Tracking", description: "24/7 shipment visibility" },
+  { icon: Shield, title: "Secure Handling", description: "Insurance coverage for s surcharge included" },
+  { icon: Zap, title: "Real-Time Tracking", description: "24/7 transport visibility" },
 ];
 
 const Services = () => {
@@ -125,10 +125,11 @@ const Services = () => {
               Our Services
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-              Comprehensive <span className="text-accent">Logistics</span> Solutions
+               <span className="text-accent">Logistics</span> Solutions and
+                   <span className="text-accent ml-2">Haulage</span>  Services
             </h1>
             <p className="text-lg md:text-xl text-primary-foreground/80 opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              From air freight to supply chain management, we offer end-to-end solutions tailored to your business needs.
+              From last-mile  delivery to full-scale haulage, we offer end-to-end solutions tailored to your business needs.
             </p>
           </div>
         </div>

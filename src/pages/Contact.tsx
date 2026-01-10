@@ -11,13 +11,13 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Visit Us",
-    details: ["10 Aighimien street, OFF Ekhator Street Off Ogiemwenken, Benin City,Edo State."],
+    details: ["10 Aighimien street, Off Ekhator Street Off Ogiemwenken, Benin City,Edo State."],
     color: "bg-accent",
   },
   {
     icon: Phone,
     title: "Call Us",
-    details: ["+49 (179) 513-4962", "+2348103117158"],
+    details: [ "+2348103117158"],
     color: "bg-primary",
   },
   {
@@ -29,7 +29,7 @@ const contactInfo = [
   {
     icon: Clock,
     title: "Working Hours",
-    details: ["Mon - Fri: 8:00 AM - 6:00 PM", "Sat: 9:00 AM - 2:00 PM"],
+    details: ["Mon - Sat: 8:00 AM - 6:00 PM"],
     color: "bg-primary",
   },
 ];
@@ -151,7 +151,7 @@ const Contact = () => {
                 <div>
                   <h3 className="font-bold text-foreground mb-2 group-hover:text-accent transition-colors">{info.title}</h3>
                   {info.details.map((detail, i) => (
-                    <p key={i} className="text-muted-foreground text-sm">
+                    <p key={i} className="text-muted-foreground text-[13px]">
                       {detail}
                     </p>
                   ))}
@@ -347,7 +347,7 @@ const Contact = () => {
                     Our Headquarters
                   </h3>
                   <p className="text-muted-foreground">
-                     10 Aighimien street, OFF Ekhator Street<br />
+                     10 Aighimien street, Off Ekhator Street,<br />
                   Off Ogiemwenken, Benin City,Edo State.
                   </p>
                 </div>
@@ -359,11 +359,11 @@ const Contact = () => {
                 </h3>
                 <ul className="space-y-4">
                   {[
-                    "Free shipping consultation",
+                    "Free Transportation consultation",
                     "Customized logistics solutions",
                     "Competitive pricing",
                     "24/7 customer support",
-                    "Real-time shipment tracking",
+                    "Real-time transport tracking",
                   ].map((item, index) => (
                     <li 
                       key={item} 
@@ -394,16 +394,16 @@ const Contact = () => {
           <div className="max-w-3xl mx-auto space-y-4">
             {[
               {
-                q: "What areas do you serve?",
-                a: "We provide logistics services across 50+ countries worldwide, covering major trade routes in North America, Europe, Asia, and more.",
+                q: "What haulage and logistics services do you provide?",
+                a: "We offer road haulage, freight transportation, logistics planning, and delivery services for a wide range of goods. This includes full loads, part loads, and time-critical deliveries.",
               },
               {
-                q: "How can I track my shipment?",
-                a: "Once your shipment is booked, you'll receive a tracking number that you can use on our website or mobile app for real-time updates.",
+                q: "What areas do you cover?",
+                a: "We operate locally, regionally, and nationally. International transport options may also be available depending on destination and regulations.",
               },
               {
-                q: "What types of cargo do you handle?",
-                a: "We handle all types of cargo including general goods, perishables, hazardous materials, oversized items, and temperature-sensitive products.",
+                q: "What types of vehicles are in your fleet?",
+                a: "Our fleet includes vans, rigid trucks, and articulated lorries to accommodate loads of different sizes and weights.",
               },
               {
                 q: "How do I get a quote?",

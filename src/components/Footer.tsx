@@ -22,11 +22,11 @@ const Footer = () => {
                 <Truck className="h-6 w-6" />
               </div>
               <span className="text-2xl font-bold">
-                Dumplink <span className="text-accent">Logistics</span>
+                DumpLink <span className="text-accent">Logistics</span>
               </span>
             </Link>
             <p className="text-primary-foreground/80 leading-relaxed">
-              Your trusted partner in global logistics solutions. We deliver excellence across land, sea, and air.
+              Your trusted partner in national logistics solutions and Hualage services. We deliver excellence across land.
             </p>
             <div className="flex gap-4">
               {handles.map((handle, i) => (
@@ -82,20 +82,20 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                 <span className="text-primary-foreground/80">
-                  10 Aighimien street, OFF Ekhator Street<br />
+                  10 Aighimien street, Off Ekhator Street,<br />
                   Off Ogiemwenken, Benin City,Edo State.
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
                 <a href="tel:+491795134962" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  +49 (179) 513-4962
+                +2348103117158        
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5 text-accent flex-shrink-0" />
-                <a href="mailto:info@dumplinklogisticsltd.com" className="text-primary-foreground/80 hover:text-accent transition-colors">
-                  info@dumplinklogisticsltd.com
+                <a href="mailto:info@dumplinklogisticsltd.net" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                  info@dumplinklogisticsltd.net
                 </a>
               </li>
             </ul>
@@ -105,7 +105,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-primary-foreground/20 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/60 text-sm">
-            © 2026 Dumplink Logistics. All rights reserved.
+            © 2026 DumpLink Logistics. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors">
