@@ -56,7 +56,7 @@ const Contact = () => {
   }
   const form = useRef();
   const sendEmail = (e) => {
-    const public_key="LP_gdQVqVkKCNgmI"
+    const public_key="LP_gdQVqVkKCNgmIL"
     e.preventDefault();
 
     emailjs

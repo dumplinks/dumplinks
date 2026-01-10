@@ -39,6 +39,48 @@ const services = [
     description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
     image: warehouseImage,
   },
+  {
+    icon: Package,
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
+    image: warehouseImage,
+  },
+    {
+    icon: Package,
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
+    image: warehouseImage,
+  },
+    {
+    icon: Package,
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
+    image: warehouseImage,
+  },
+    {
+    icon: Package,
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
+    image: warehouseImage,
+  },
+  {
+    icon: Package,
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
+    image: warehouseImage,
+  },
+  {
+    icon: Package,
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
+    image: warehouseImage,
+  },
+  {
+    icon: Package,
+    title: "Logistics Advisory & Management Services",
+    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
+    image: warehouseImage,
+  },
 ];
 
 const features = [
@@ -326,8 +368,8 @@ const Home = () => {
 
       {/* Image Gallery Strip */}
       <section className="py-4 bg-primary">
-        <div className="flex gap-4 animate-truck-move" style={{ animationDuration: "30s" }}>
-          {[...services, ...services].map((service, index) => (
+        <div className="flex gap-4 animate-truck-move" style={{ animationDuration: "60s" }}>
+          {services.map((service, index) => (
             <div key={index} className="flex-shrink-0 w-64 h-40 rounded-lg overflow-hidden">
               <img 
                 src={service.image} 
