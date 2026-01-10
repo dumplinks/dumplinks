@@ -105,7 +105,7 @@ const processSteps = [
 
 const benefits = [
   { icon: Clock, title: "Fast Delivery", description: "Express options available" },
-  { icon: Shield, title: "Secure Handling", description: "Insurance coverage for s surcharge included" },
+  { icon: Shield, title: "Secure Handling", description: "Insurance coverage for  surcharge included" },
   { icon: Zap, title: "Real-Time Tracking", description: "24/7 transport visibility" },
 ];
 
