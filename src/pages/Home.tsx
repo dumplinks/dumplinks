@@ -248,7 +248,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="opacity-0 animate-slide-in-left">
               <span className="text-accent font-semibold text-sm uppercase tracking-wider">Why Choose Us</span>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-6">
+              <h2 className="text-2xl md:text-4xl font-bold text-foreground mt-2 mb-6">
                 Why Choose <span className="text-accent">DumpLink ?</span>
               </h2>
               <p className="text-muted-foreground text-lg mb-8">
