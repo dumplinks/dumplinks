@@ -10,6 +10,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import How from "./pages/How";
+import Tracking from "./pages/Transport";
 
 const queryClient = new QueryClient();
 
@@ -26,6 +27,8 @@ const App = () => (
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/how" element={<How />} />
+            <Route path="/Tracking" element={<Tracking />} />
+
 
             <Route path="*" element={<NotFound />} />
           </Routes>

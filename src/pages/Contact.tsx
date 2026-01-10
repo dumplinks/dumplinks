@@ -23,7 +23,7 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: ["info@dumplinklogisticsltd.com"],
+    details: ["info@dumplinklogisticsltd.net"],
     color: "bg-accent",
   },
   {

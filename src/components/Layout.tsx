@@ -56,7 +56,7 @@ const Layout = ({ children }: LayoutProps) => {
         width:"55px",
         height:"55px",
         borderRadius:"50%",
-        right:"20px",
+        right:"50px",
         display:"flex",
         alignItems:"center",
         justifyContent:"center",

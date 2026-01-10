@@ -45,7 +45,7 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-6">Quick Links</h3>
             <ul className="space-y-3">
-              {["Home", "About", "Services", "Contact"].map((item) => (
+              {["Home", "About Us", "Services", "Contact"].map((item) => (
                 <li key={item}>
                   <Link
                     to={item === "Home" ? "/" : `/${item.toLowerCase()}`}
@@ -88,7 +88,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5 text-accent flex-shrink-0" />
-                <a href="tel:+491795134962" className="text-primary-foreground/80 hover:text-accent transition-colors">
+                <a href="tel:+2348103117158" className="text-primary-foreground/80 hover:text-accent transition-colors">
                 +2348103117158        
                 </a>
               </li>
