@@ -12,6 +12,7 @@ import NotFound from "./pages/NotFound";
 import How from "./pages/How";
 import Tracking from "./pages/Transport";
 import Privacy from "./pages/privacy";
+import Terms from "./pages/Terms";
 
 const queryClient = new QueryClient();
 
@@ -30,6 +31,8 @@ const App = () => (
             <Route path="/how" element={<How />} />
             <Route path="/Tracking" element={<Tracking />} />
             <Route path="/Privacy" element={<Privacy />} />
+            <Route path="/Term" element={<Terms />} />
+
 
 
 
