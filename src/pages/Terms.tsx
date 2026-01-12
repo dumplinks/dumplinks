@@ -1,7 +1,7 @@
 export default function Terms(){
  return(
     <div className="p-4">
-        <h1 className="text-center text-3xl my-8">Terms of Service</h1>
+        <h1 className="text-center text-3xl my-8">Terms of Use</h1>
         <p>These Terms of Use govern your access to and use of the DumpLink website and any related services, content, and documents made available through it. By using our website, you agree to these Terms. If you do not agree, do not use the website.</p>
         <h1 className="my-3">1.Use of The Website</h1>
         <p> 

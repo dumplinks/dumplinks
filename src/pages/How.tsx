@@ -10,7 +10,7 @@ export default function How (){
   {
     step: "01",
     title: "Request Quote",
-    description: "Tell us about your shipping needs and get a competitive quote.",
+    description: "Tell us about your transport needs and get a competitive quote.",
     icon: FileCheck,
   },
   {
@@ -44,7 +44,7 @@ export default function How (){
                       How It <span className="text-accent">Works</span>
                     </h2>
                     <p className="text-muted-foreground text-lg opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-                      Simple and transparent shipping process
+                      Simple and transparent transport process
                     </p>
                   </div>
         
