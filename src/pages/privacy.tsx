@@ -90,7 +90,6 @@ export default function Privacy(){
          <h1 className="my-3">5.Cookies & Tracking Technologies We</h1>
         <p> We may use cookies and similar technologies (such as pixels or local storage) to improve functionality, understand website traffic, and enhance your experience. Cookies may be session cookies (deleted when you close your browser) or persistent cookies (stored for longer).   </p>
         <div>
-      
         <div className="ml-6 ">
             <li><b>Essential Cookies: </b>required for basic site functionality and security. </li>
             <li><b>Analytics Cookies:</b>help us understand how visitors use our website so we can improve it.</li>
