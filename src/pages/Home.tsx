@@ -39,48 +39,7 @@ const services = [
     description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
     image: warehouseImage,
   },
-  {
-    icon: Package,
-    title: "Logistics Advisory & Management Services",
-    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
-    image: warehouseImage,
-  },
-    {
-    icon: Package,
-    title: "Logistics Advisory & Management Services",
-    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
-    image: warehouseImage,
-  },
-    {
-    icon: Package,
-    title: "Logistics Advisory & Management Services",
-    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
-    image: warehouseImage,
-  },
-    {
-    icon: Package,
-    title: "Logistics Advisory & Management Services",
-    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
-    image: warehouseImage,
-  },
-  {
-    icon: Package,
-    title: "Logistics Advisory & Management Services",
-    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
-    image: warehouseImage,
-  },
-  {
-    icon: Package,
-    title: "Logistics Advisory & Management Services",
-    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
-    image: warehouseImage,
-  },
-  {
-    icon: Package,
-    title: "Logistics Advisory & Management Services",
-    description: "Provision of advisory, operational planning, and management services in logistics, transportation, and mobility-related operations.",
-    image: warehouseImage,
-  },
+ 
 ];
 
 const features = [

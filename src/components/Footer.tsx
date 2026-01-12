@@ -108,7 +108,7 @@ const Footer = () => {
             © 2026 DumpLink Logistics. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
-            <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors">
+            <a href="/Privacy" className="text-primary-foreground/60 hover:text-accent transition-colors">
               Privacy Policy
             </a>
             <a href="#" className="text-primary-foreground/60 hover:text-accent transition-colors">

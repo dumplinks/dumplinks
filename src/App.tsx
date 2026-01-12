@@ -11,6 +11,7 @@ import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import How from "./pages/How";
 import Tracking from "./pages/Transport";
+import Privacy from "./pages/privacy";
 
 const queryClient = new QueryClient();
 
@@ -28,6 +29,8 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/how" element={<How />} />
             <Route path="/Tracking" element={<Tracking />} />
+            <Route path="/Privacy" element={<Privacy />} />
+
 
 
             <Route path="*" element={<NotFound />} />
