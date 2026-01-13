@@ -80,7 +80,7 @@ const processSteps = [
   {
     step: "01",
     title: "Request Quote",
-    description: "Tell us about your shipping needs and get a competitive quote.",
+    description: "Tell us about your transport needs and get a competitive quote.",
     icon: FileCheck,
   },
   {
@@ -91,7 +91,7 @@ const processSteps = [
   },
   {
     step: "03",
-    title: "Track Shipment",
+    title: "Track Transport",
     description: "Monitor your goods in real-time with our tracking system.",
     icon: MapPin,
   },

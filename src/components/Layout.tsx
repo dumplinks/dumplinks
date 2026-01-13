@@ -42,7 +42,7 @@ const Layout = ({ children }: LayoutProps) => {
         justifyContent:"center"
         }}
         >
-        <a href="https://wa.me/+2349011192901">     
+        <a href="https://wa.me/+2348103117158">     
         <FaWhatsapp color='white' size={25} />
       </a>
         </div>
@@ -66,7 +66,7 @@ const Layout = ({ children }: LayoutProps) => {
       }}>
         <div className="md:block">
                     <Button variant="accent" asChild>
-                      <Link to="/how">How it works </Link>
+                      <Link to="/PartnerShip">Partner With Us</Link>
                     </Button>
                   </div>
       </div>
