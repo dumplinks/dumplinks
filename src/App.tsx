@@ -13,6 +13,7 @@ import How from "./pages/How";
 import Tracking from "./pages/Transport";
 import Privacy from "./pages/privacy";
 import Terms from "./pages/Terms";
+import PartnerShip from "./pages/Partnership";
 
 const queryClient = new QueryClient();
 
@@ -32,6 +33,8 @@ const App = () => (
             <Route path="/Tracking" element={<Tracking />} />
             <Route path="/Privacy" element={<Privacy />} />
             <Route path="/Terms" element={<Terms />} />
+            <Route path="/PartnerShip" element={<PartnerShip />} />
+
 
 
 
