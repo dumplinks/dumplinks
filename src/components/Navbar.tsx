@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/95  bg-white border-b border-border">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-[120px]">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
           <img src={logo} alt="Dumplinks Logistics Logo" className="h-[80px] md:w-[400px] md:h-[80px] mr-8 md:[80px]"/>
