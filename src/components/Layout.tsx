@@ -66,7 +66,7 @@ const Layout = ({ children }: LayoutProps) => {
       }}>
         <div className="md:block">
                     <Button variant="accent" asChild>
-                      <Link to="/PartnerShip">Partner With Us</Link>
+                      <Link to="/How">Partner With Us</Link>
                     </Button>
                   </div>
       </div>
