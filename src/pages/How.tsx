@@ -9,39 +9,42 @@ export default function How (){
     const processSteps = [
   {
     step: "01",
-    title: "Request Quote",
-    description: "Tell us about your transport needs and get a competitive quote.",
+    title: "You Buy the Truck/ Dump Trucks",
+    description: "New or fairly used trucks (guidelines provided by DumpLink).",
     icon: FileCheck,
   },
   {
     step: "02",
-    title: "Schedule Pickup",
-    description: "Choose your preferred pickup time and location.",
-    icon: Clock,
+    title: "Register Truck",
+    description: "Truck Is Registered Under a Managed Contract Ownership remains with you while DumpLink manages daily operations.",
+    icon: CheckCircle,
+    
   },
   {
     step: "03",
-    title: "Track Shipment",
-    description: "Monitor your goods in real-time with our tracking system.",
+    title: "Dumplink Operates the Truck",
+    description: "Driver recruitment and management, job sourcing and logistics contracts, fuel management, scheduling and routing, and maintenance coordination",
     icon: MapPin,
   },
   {
     step: "04",
-    title: "Delivery Complete",
-    description: "Receive your goods safely at the destination.",
+    title: "Monthly Earnings",
+    description: "You Earn Monthly Earnings Net profit is shared monthly with transparent performance reporting.",
     icon: CheckCircle,
   },
+
 ];
 
 
 
     return(
          <section className="py-24 bg-secondary overflow-hidden">
+          <h1 className="text-center text-3xl">Own a  Truck.We Manage it. You Earn Monthly.</h1>
                 <div className="container mx-auto px-4">
                   <div className="text-center max-w-2xl mx-auto mb-16">
-                    <span className="text-accent font-semibold text-sm uppercase tracking-wider opacity-0 animate-fade-in">Simple Process</span>
+                    <span className="text-accent font-semibold text-sm  tracking-wider opacity-0 animate-fade-in">DumpLink Logistics Ltd offers  investors a hand-off truck ownership program with professional fleet management and monthly earnings.</span>
                     <h2 className="text-3xl md:text-4xl font-bold text-foreground mt-2 mb-4 opacity-0 animate-fade-in" style={{ animationDelay: "0.1s" }}>
-                      How It <span className="text-accent">Works</span>
+                      How The Program <span className="text-accent">Works</span>
                     </h2>
                     <p className="text-muted-foreground text-lg opacity-0 animate-fade-in" style={{ animationDelay: "0.2s" }}>
                       Simple and transparent transport process
