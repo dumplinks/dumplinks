@@ -6,6 +6,11 @@ import warehouseImage from "@/assets/warehouse.jpg";
 import airFreightImage from "@/assets/air-freight.jpg";
 import seaFreightImage from "@/assets/sea-freight.jpg";
 import roadTransportImage from "@/assets/road-transport.jpg";
+import { useState } from "react";
+import Carousel from "@/components/carousel";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const stats = [
   { value: "2K+", label: "Deliveries Daily" },
@@ -14,6 +19,15 @@ const stats = [
   { value: "24/7", label: "Support" },
 ];
 
+const carousel=[
+  {image:roadTransportImage},
+  {image:warehouseImage},
+  {image:roadTransportImage},
+  {image:airFreightImage},
+  {image:roadTransportImage},
+  {image:seaFreightImage},
+
+]
 const services = [
   {
     icon: Truck,
@@ -60,13 +74,22 @@ const features = [
   },
 ];
 
-const clients = [
-  "TechCorp", "GlobalTrade", "FastShip", "MegaMart", "IndustrialCo"
-];
 
-const Home = () => {
-  return (
-    <div className="overflow-hidden">
+
+  const Home = () => {
+
+      const clients = [
+      "TechCorp", "GlobalTrade", "FastShip", "MegaMart", "IndustrialCo"
+    ];
+const settings = {
+    dots: false,
+    infinite: true,
+    speed: 600,
+    slidesToShow: 4,
+    slidesToScroll: 2
+  };
+    return (
+      <div className="overflow-hidden">
       {/* Hero Section */}
       <section className="relative min-h-[90vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
@@ -325,14 +348,16 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Image Gallery Strip */}
+    
+
+     {/* <Carousel/> */}
       <section className="py-4 bg-primary">
-        <div className="flex gap-4 animate-truck-move" style={{ animationDuration: "60s" }}>
-          {services.map((service, index) => (
+        <div className="flex gap-4 animate-truck-move " style={{ animationDuration: "60s" }}>
+          {[...carousel,...carousel].map((service, index) => (
             <div key={index} className="flex-shrink-0 w-64 h-40 rounded-lg overflow-hidden">
               <img 
                 src={service.image} 
-                alt={service.title}
+                // alt={service.title}
                 className="w-full h-full object-cover"
               />
             </div>
