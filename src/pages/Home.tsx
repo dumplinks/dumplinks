@@ -352,16 +352,19 @@ const settings = {
 
      {/* <Carousel/> */}
       <section className="py-4 bg-primary">
-        <div className="flex gap-4 animate-truck-move " style={{ animationDuration: "60s" }}>
+        <div className="flex">
+
+        <div className="flex gap-4 animate-marquee " style={{ animationDuration: "60s" }}>
           {[...carousel,...carousel].map((service, index) => (
             <div key={index} className="flex-shrink-0 w-64 h-40 rounded-lg overflow-hidden">
               <img 
                 src={service.image} 
                 // alt={service.title}
                 className="w-full h-full object-cover"
-              />
+                />
             </div>
           ))}
+          </div>
         </div>
       </section>
 
@@ -393,6 +396,45 @@ const settings = {
           </div>
         </div>
       </section>
+       <style jsx>{`
+          @keyframes marquee {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-50%);
+            }
+          }
+
+          @keyframes marquee-vertical {
+            0% {
+              transform: translateY(0);
+            }
+            100% {
+              transform: translateY(-50%);
+            }
+          }
+
+          .animate-marquee {
+            animation: marquee 20s linear infinite;
+          }
+
+          .animate-marquee-fast {
+            animation: marquee 15s linear infinite;
+          }
+
+          .animate-marquee-slow {
+            animation: marquee 30s linear infinite;
+          }
+
+          .animate-marquee-reverse {
+            animation: marquee 25s linear infinite reverse;
+          }
+
+          .animate-marquee-vertical {
+            animation: marquee-vertical 20s linear infinite;
+          }
+        `}</style>
     </div>
   );
 };
